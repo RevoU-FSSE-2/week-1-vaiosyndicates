@@ -1,0 +1,38 @@
+form.contact-forms {
+  display: grid;
+}
+
+.contact-forms {
+  width: 50%;
+}
+
+form.contact-forms {
+  display: grid;
+}
+
+.contact-forms {
+  width: 50%;
+}
+
+.submit-button {
+  width: 10%;
+  height: 50%;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+textarea {
+  resize: none;
+  border-radius: 2px;
+  padding: 12px 20px;
+}
+
+input[type=text], input[type=email]{
+  border-radius: 2px;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus{
+  background-color: floralwhite;
+}

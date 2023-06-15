@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/navbar/navbar.css">
+  <link rel="stylesheet" href="/assets/css/global/index.css">
+  <script src="/assets/js/index.js"></script>
+  <script>
+    //kalau tidak pakai window onload, id home tidak ditemukan karena script dijalankan terlebih dahulu sebelum//
+    // html ter-render //
+    window.onload = function() {
+      document.getElementById('home').addEventListener("click", (event) => {
+        event.preventDefault()
+        let pages = event.target.id;
+        testClick(pages)
+      })
+  
+      document.getElementById('about').addEventListener("click", (event) => {
+        event.preventDefault()
+        let pages = event.target.id;
+        testClick(pages)
+      })
+  
+      document.getElementById('contact').addEventListener("click", (event) => {
+        event.preventDefault()
+        let pages = event.target.id;
+        testClick(pages)
+      })
+    }
+  </script>  
+  <title>Home</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar navbar-horizontal">
+      <ul id="button-menus" onclick="activeClass(event)">
+        <li>
+          <a href="javascript:void(0)" id="home" class="links active link-menu">Home</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" id="about" class="links link-menu">About</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" id="contact" class="links link-menu">Contact Me</a>
+        </li> 
+      </ul>
+    </div>
+    <div class="content-wrapper">
+      <div class="contents" id="contents">
+        <h1 class="title">Hi i'm Kresna</h1>
+        <p class="paragraph">
+          Welcome to my page. Please follow my social page at Contact Me page
+        </p>
+        <img src="/assets/image/my_pict.jpg" alt="" srcset="" width="300px" height="200px" loading="lazy">
+      </div>
+    </div>
+  </div>
+</body> 
+</html>
