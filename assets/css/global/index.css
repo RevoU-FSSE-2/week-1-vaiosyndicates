@@ -2,7 +2,7 @@ body {
   background-color: azure;
 }
 
-p.paragraph {
+p.paragraph, li.paragraph {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 

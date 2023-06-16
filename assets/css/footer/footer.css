@@ -1,0 +1,16 @@
+.footer-wrapper {
+  display: flex;
+  background-color: grey;
+  height: 150px;
+}
+.footer-content {
+  width: 50%;
+  padding: 10px;
+}
+
+ul.contact-footer {
+  list-style-type: none;
+}
+.footer {
+  margin-top: 5%;
+}
