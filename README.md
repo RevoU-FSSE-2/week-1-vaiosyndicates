@@ -6,7 +6,7 @@ The feature of this project is :
 - Overlay image
 - Alert from Form
 ***
-You can check my live project by clicking this link [**Long Life Learner**](https://www.example.com). <br>
+You can check my live project by clicking this link [**Long Life Learner**](https://longlifelearner.netlify.app). <br>
 Why i using **Long Life Learner** for my website name?<br>
 Because in my opinion, programmers are never ending of learning. <br>
 Once they stop to learn, AI will replace them<br><br>
