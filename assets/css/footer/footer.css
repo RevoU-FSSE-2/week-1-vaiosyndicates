@@ -14,3 +14,7 @@ ul.contact-footer {
 .footer {
   margin-top: 5%;
 }
+
+.title-footer, .subtitle-footer {
+  color: antiquewhite;
+}
