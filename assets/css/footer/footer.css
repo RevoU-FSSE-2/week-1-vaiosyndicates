@@ -10,6 +10,7 @@
 
 ul.contact-footer {
   list-style-type: none;
+  padding: 0;
 }
 .footer {
   margin-top: 5%;
